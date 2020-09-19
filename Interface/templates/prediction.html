@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Cuisine Prediction
+        </title>
+        <style>
+            body {
+            background-image: url("/static/images/prediction_image.jpg");
+            background-size: cover;
+            }
+
+            #button {
+                  background-color: blueviolet;
+                  color: white;
+                  padding: 20px;
+                  text-align: center;
+                  text-decoration: violet;
+                  display: inline-block;
+                  font-size: 16px;
+                  margin: 30px 200px;
+                  cursor: pointer;
+                  border-radius: 16px;
+              }
+
+              input [type = text], select
+              {
+                  width: 100%;
+                  padding: 12px 20px;
+                  margin: 8px 0;
+                  display: inline-block;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  box-sizing: border-box;
+              }
+        </style>
+    </head>
+    <body>
+        <form style = 'margin-top: 300px; margin-left: 420px', method= 'POST'>
+            <label for = "ingredients" style = "color: orangered; font-size: 40px">Ingredients:</label>
+            <br>
+            <br>
+            <input type = "text" id = "ingredients" placeholder="Enter Ingredients.." size="120px" style = "height: 40px; border-radius: 16px" name = "ingredients">
+            <input type="image" src = "/static/images/arrow2.gif" alt = "Submit" width = "150" height = "170" style = "margin-left: 320px">
+        </form>
+    </body>
+</html>

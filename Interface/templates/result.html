@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Cuisine Prediction
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+              }
+              
+              .text-block {
+                position: absolute;
+                bottom: 300px;
+                right: 600px;
+                color: burlywood;
+                padding-left: 20px;
+                padding-right: 20px;
+              }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="/static/images/result_image.jpg" width="100%" height="1000px">
+            <div class="text-block">
+              <h3 style="font-size: 300%;">
+                  These ingredients belong to
+              </h3>
+              <h1 style="font-size: 500%;">
+                  {{ var1 }}
+              </h1>
+              <h3 style="font-size: 300%;">
+                  origin
+              </h3>
+            </div>
+          </div>
+          
+    </body>
+</html>
